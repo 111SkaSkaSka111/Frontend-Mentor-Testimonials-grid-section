@@ -34,6 +34,8 @@ body {
         "daniel daniel jonathan kira"
         "jeanette patrick patrick kira";
     gap: 20px;
+    height: 100vh;
+    padding: 40px 0;
 }
 
 .header {
@@ -107,9 +109,10 @@ body {
     }
 
     .container {
-        margin: 50px auto;
+        padding: 50px 0;
         grid-template-columns: 1fr;
         grid-template-areas: "daniel" "jonathan" "jeanette" "patrick" "kira";
         width: 90%;
+        height: fit-content;
     }
 }
